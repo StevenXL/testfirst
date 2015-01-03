@@ -1,0 +1,12 @@
+def repeat(output,reps=2)
+    return if reps == 0
+
+    # we need to seperate the first output because it is formatted differently. 
+    # The first output has no initial space.
+    repeating_word = "#{output}"
+    (reps - 1).times { repeating_word << " #{output}" }
+
+    return repeating_word
+end
+
+puts repeat("hello", 3)

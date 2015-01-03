@@ -1,0 +1,2 @@
+1 - Go back to the calculator excercise and do the pending examples
+2 - How did others solve the titleize method in the simon says folder
