@@ -17,6 +17,13 @@
 
 # of course, attr_accessor is a shorthand for both of these! 
 
+# In the class below, what was really confusing is that we had an instance
+# variable called @title, which we had to make read / write-able with
+# attr_accessor, and we had a method called title which took the instance
+# variable title and changed it! So, when the user "sets" the title, using
+# something like book.title = "To Kill a Mockingbird", they are simultenously,
+# setting the instance variable @title to the string, and then they are calling
+# the method title to change the @instance title
 class Book
     attr_accessor :title
 
