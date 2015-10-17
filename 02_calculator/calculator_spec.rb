@@ -101,9 +101,23 @@ end
 
 # http://en.wikipedia.org/wiki/Factorial
 describe "#factorial" do
-  it "computes the factorial of 0"
-  it "computes the factorial of 1"
-  it "computes the factorial of 2"
-  it "computes the factorial of 5"
-  it "computes the factorial of 10"
+  it "computes the factorial of 0" do
+    factorial(0).should == 1
+  end
+
+  it "computes the factorial of 1" do
+    factorial(1).should == 1
+  end
+
+  it "computes the factorial of 2" do
+    factorial(2).should == 2
+  end
+
+  it "computes the factorial of 5" do
+    factorial(5).should == 120
+  end
+
+  it "computes the factorial of 10" do
+    factorial(10).should == 3_628_800
+  end
 end
