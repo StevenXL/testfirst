@@ -19,3 +19,9 @@ def power(integers)
 
   base ** power
 end
+
+def factorial(integer)
+  return 1 if integer <= 1
+
+  integer * factorial(integer - 1)
+end
