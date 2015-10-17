@@ -13,3 +13,9 @@ end
 def multiply(integers)
   integers.reduce(1,:*)
 end
+
+def power(integers)
+  base, power = integers
+
+  base ** power
+end
