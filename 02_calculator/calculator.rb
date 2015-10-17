@@ -9,3 +9,7 @@ end
 def sum(integers)
   integers.reduce(0,:+)
 end
+
+def multiply(integers)
+  integers.reduce(1,:*)
+end
