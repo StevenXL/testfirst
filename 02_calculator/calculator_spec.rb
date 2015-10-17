@@ -90,7 +90,13 @@ describe "#multiply" do
 end
 
 describe "#power" do
-  it "raises one number to the power of another number"
+  it "raises one number to the power of another number" do
+    power([1,2]).should == 1
+  end
+
+  it "raises one number to the power of another number" do
+    power([4,2]).should == 16
+  end
 end
 
 # http://en.wikipedia.org/wiki/Factorial
