@@ -1,9 +1,9 @@
 def add(first, second)
-    return first + second
+    first + second
 end
 
 def subtract(first, second)
-    return first - second
+    first - second
 end
 
 def sum(integers)
@@ -13,5 +13,5 @@ def sum(integers)
         total_sum += current_element
     end
 
-    return total_sum
+    total_sum
 end
